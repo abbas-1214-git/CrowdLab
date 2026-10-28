@@ -1,0 +1,5 @@
+.overlay-link{color:#c4f36a;font:9px 'Cascadia Mono',Consolas,monospace;letter-spacing:.7px;text-decoration:none;white-space:nowrap}
+.overlay-link:hover{text-decoration:underline}
+.overlay-link:focus-visible{outline:2px solid #c4f36a;outline-offset:4px}
+@media(max-width:760px){.topbar-right{gap:12px}.overlay-link{font-size:8px}.tagline{display:none}}
+@media(max-width:440px){.overlay-link{max-width:92px;white-space:normal;line-height:1.35}.topbar-right{gap:8px}}
